@@ -1,0 +1,9 @@
+
+{
+  "version": 1,
+  "updatedAt": "2026-11-21T00:00:00Z",
+  "discovery": {
+    "primary": "https://server-a.example.com",
+    "fallback": "https://server-b.example.com"
+  }
+}
