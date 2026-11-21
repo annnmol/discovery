@@ -1,8 +1,49 @@
 {
-  "version": 2,
-  "updatedAt": "2026-11-21T03:51:02Z",
-  "discovery": {
-    "primary": "https://server-a.example.com",
-    "fallback": "https://server-b.example.com"
+  "version": 1,
+  "updatedAt": "2026-11-21T08:37:00Z",
+  "currentMethod": "tv",
+  "tv": {
+    "discoveryOriginsBase64": [
+      "aHR0cHM6Ly9tb2JpbGVkZXRlY3RzLmNvbQ==",
+      "aHR0cHM6Ly9tb2JpbGVkZXRlY3QuYXBw",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0LmFydA==",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0LmNj",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0LmNsaWNr",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0Lmluaw==",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0LmxpdmU=",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0LnBybw==",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0LnNob3A=",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0LnNpdGU=",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0LnNwYWNl",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0LnN0b3Jl",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0LnZpcA==",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0Lndpa2k=",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0Lnh5eg==",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0cy5hcnQ=",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0cy5jYw==",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0cy5pbmZv",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0cy5pbms=",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0cy5saXZl",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0cy5wcm8=",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0cy5zdG9yZQ==",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0cy50b3A=",
+      "aHR0cHM6Ly9tb2JpZGV0ZWN0cy54eXo="
+    ],
+    "otpValue": "111111",
+    "appId": "NetmirrorNewTV v1.0",
+    "apiAndPlaybackUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 /OS.GatuNewTV v1.0",
+    "otpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 /OS.Gatu v1.0",
+    "discoveryResponse": "{\"token_hash\":\"aHR0cHM6Ly90di5pbWdjZG4ua2lt\",\"doms\":\"false\",\"mwin\":\"true\",\"popwin\":\"true\",\"var\":\"1.0\"}",
+    "endpoints": {
+      "discovery": "/checknewtv.php",
+      "authentication": "/newtv/otp.php",
+      "providers": "/newtv/ott.php",
+      "catalog": "/newtv/main.php",
+      "details": "/newtv/post.php",
+      "search": "/newtv/search.php",
+      "episodes": "/newtv/episodes.php",
+      "playback": "/newtv/player.php",
+      "recentPlay": "/newtv/recentplay.php"
+    }
   }
 }
